@@ -1,0 +1,142 @@
+body {
+	font-family:helvetica,tahoma,verdana,sans-serif;
+	/*padding:20px;*/
+	font-size:13px;
+	margin:0;}
+h2 {font-size:18px;font-weight:bold;margin:0;margin-bottom:15px;}
+
+.grid {border: 1px solid #eeeeee;font: 12px arial,helvetica,sans-serif;}
+.grid td {font: 100% arial,helvetica,sans-serif;height: 24px;padding: 5px;}
+.grid {border-collapse: collapse;width: 100%;}
+.grid th {background: none repeat scroll 0 0 #E7F3FE;border: 1px solid #eeeeee;height: 27px;line-height: 27px;padding-left: 5px;}
+.grid td {border: 1px solid #eeeeee;padding-left: 5px;max-height:270px;}
+
+#layout_west_tree li ul li div{padding:5px 5px 3px 5px;}
+#layout_west_tree li div{padding:5px 5px 3px 10px;}
+
+#logo_sl{
+    background:url(../images/logo_dpca.png) #fff left top no-repeat;
+    height:43px;
+}
+#logo_sl span{
+    display:block;
+    float:right;
+    background:url(../images/logo_dcad_dpad.png) right top no-repeat;
+    height:43px;
+    width:120px;
+}
+
+#head {
+    background:url(../images/C_logobg.png) repeat-x;
+    height:21px;
+    text-align:left;
+    width:100%;
+}
+#head span{
+    background:url(../images/C_logobgleft.png) right top no-repeat;
+    display:block;
+    float:left;
+    text-align:left;
+}
+#head span b{
+    display:block;
+    /*background:url(../images/C_logo.png) no-repeat;*/
+    _background:none;
+    _FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/C_logo.png', sizingMethod='crop') display:block;
+    color:#242424;
+    height:21px;
+    line-height:20px;
+    text-align:right;
+    font-weight:normal;
+    margin:0 0 0 6px;
+    width:206px;
+}
+
+#head {
+    background:url(../images/C_logobg.png) repeat-x;
+    height:21px;
+    text-align:left;
+    width:100%;
+}
+#head span{
+    background:url(../images/C_logobgleft.png) right top no-repeat;
+    display:block;
+    float:left;
+    text-align:left;
+}
+#head span b{
+    display:block;
+    /*background:url(../images/C_logo.png) no-repeat;*/
+    _background:none;
+    _FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/C_logo.png', sizingMethod='crop') display:block;
+    color:#242424;
+    height:21px;
+    line-height:20px;
+    text-align:right;
+    font-weight:normal;
+    margin:0 0 0 6px;
+    width:206px;
+}
+#head ul{
+    display:block;
+    float:right;
+    margin:0 5px 0 0;
+    width:60%;
+}
+#head ul li {
+    color:#fff;
+    display:block;
+    font-weight:13px;
+    float:right;
+    margin:0 0 0 12px;
+    padding:0 0 0 18px;
+    height:21px;
+    line-height:19px;
+}
+#head ul li a {
+    color:#fff;
+    text-decoration:none;
+}
+#head ul li a:hover {
+    color:#1212FE;
+    text-decoration:underline;
+}
+#head ul li.home {
+    background:url(../images/home.png) 0 1px no-repeat;
+}
+#head ul li.help {
+    background:url(../images/link_help.png) 0 1px no-repeat;
+}
+
+#header{overflow:hidden;height:21px;background:url(../images/menubg.png) repeat-x; margin:0; padding:0;line-height:20px;color:#fff;font-family:Verdana,微软雅黑,黑体}
+
+#common_b{overflow:hidden;height:70px;line-height:70px;color:#fff;font-family:Verdana,微软雅黑,黑体}
+#common{overflow:hidden;height:60px;background:#eee;line-height:60px;color:#fff;font-family:Verdana,微软雅黑,黑体}
+
+.light-info{background:#FFFEE6;color:#8F5700;padding:12px;}
+.light-tip{width:16px;height:16px;margin-right:8px;float:left;}
+
+
+ .l-tips{
+   position:absolute;
+   right:30px;
+ }
+ .active{
+    background-color:#CC0000;
+    color:#FFF;
+  } 
+ .clearfix::after {
+            content: ".";
+            clear: both;
+            display: block;
+            overflow: hidden;
+            font-size: 0;
+            height: 0;
+        }
+
+.clearfix {
+            zoom: 1;
+        }
+ ul{
+ padding-left: 0px;
+ }

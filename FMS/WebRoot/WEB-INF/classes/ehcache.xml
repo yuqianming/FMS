@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ehcache.sf.net/ehcache.xsd" updateCheck="false"
+	monitoring="autodetect" dynamicConfig="true">
+
+	<diskStore path="java.io.tmpdir" />
+	<defaultCache maxElementsInMemory="100000" eternal="false" timeToIdleSeconds="3600" timeToLiveSeconds="3720" overflowToDisk="true" />
+	<cache name="paymentTest" maxElementsInMemory="100000" eternal="false" timeToLiveSeconds="3600000" timeToIdleSeconds="3600000" overflowToDisk="true" />
+</ehcache>
