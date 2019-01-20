@@ -54,7 +54,7 @@ public class CostSheetController extends BaseController{
 	
 	
 	@RequestMapping("/dataGrid")
-	@ResponseBody
+	@ResponseBod
 	public Grid dataGrid(CostInfo costinfo,PageFilter ph,HttpSession session) {
 		Grid grid = new Grid();
 		try
